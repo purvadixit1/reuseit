@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+<h1 align="center">Reuseit</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Platform for Sell & Buy of reusable items.
+## Tech Stack
 
-## Available Scripts
+**Client:** React, Redux, Material UI
 
-In the project directory, you can run:
+**Server:** Node, Express, MongoDB
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Documentation
+The aim of this project is to create a user-friendly online platform that facilitates the buying and selling of reusable items. The platform will serve as a marketplace where individuals can conveniently trade a variety of products such as laptops, mobile phones, routers, books, bicycles, sound systems, and tea makers.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The platform will provide an intuitive interface that allows users to easily navigate through the different categories and listings. Users will be able to create personalized accounts, enabling them to post items for sale, browse available products, and engage in transactions with other platform users.
+## Features
+1. User Registration and Profiles: Users will have the ability to create accounts, set up profiles, and manage their personal information. This will enable a secure and personalized experience on the platform.
 
-### `npm test`
+2. Product Listings: Sellers can create detailed listings for their reusable items, including relevant information such as product descriptions, condition, price, and images. The platform will provide standardized categories and search filters to streamline the browsing process for buyers.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Messaging System: The platform will include a messaging system that allows users to communicate with each other regarding item inquiries, negotiations, and transaction details. This feature will enhance transparency and enable smoother transactions between buyers and sellers.
 
-### `npm run build`
+4. Reviews and Ratings: Users will have the option to rate and provide feedback on their buying or selling experiences. This feature will contribute to building trust among platform users and help others make informed decisions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Secure Payment Integration: The platform will integrate a secure payment system to facilitate transactions between buyers and sellers. This will ensure that financial information is protected and transactions are conducted smoothly.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+6. Notification System: Users will receive notifications regarding new listings, messages, and updates on their transactions. This feature will keep users informed and engaged with the platform.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+7. Mobile-Friendly Design: The platform will be responsive and optimized for mobile devices, allowing users to access it conveniently from their smartphones or tablets.
 
-### `npm run eject`
+Overall, the Platform for Sell & Buy of Reusable Items will provide a convenient and reliable marketplace for users to trade their reusable products. By connecting buyers and sellers in a user-friendly environment, the platform aims to promote sustainability and the reuse of items, reducing waste and benefiting both individuals and the environment.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Run Locally
+Reuseit is an online marketplace platform that facilitates the buying and selling of reusable items. This repository contains the source code for the platform. Follow the instructions below to set up and run the project locally.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone the project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  git clone https://github.com/narengavli/reuseit.git
+```
 
-## Learn More
+Go to the project directory
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  cd reuseit
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install dependencies using npm:
 
-### Code Splitting
+```bash
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Starts the development server:
 
-### Analyzing the Bundle Size
+```bash
+  npm run start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[@narengavli](https://github.com/narengavli) [@purvadixit1](https://github.com/purvadixit1)
